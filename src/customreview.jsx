@@ -3,7 +3,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "Ntabashwa Egide",
+    name: "Iragena Egide",
     image: "../assets/khalipa.png",
     review: "Stockify Greatness",
     comment:
@@ -86,11 +86,7 @@ const CustomerReviews = () => {
         </div>
       </div>
       {/* Footer Section */}
-      <section className="mt-8 text-center">
-        <p className="text-sm font-sulphur">
-          &copy; {currentYear} Stockify. All Rights Reserved.
-        </p>
-      </section>
+      
     </div>
   );
 };

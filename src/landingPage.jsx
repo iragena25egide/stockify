@@ -26,46 +26,30 @@ const BlockchainComponent = () => {
         </div>
       </div>
 
-    
-      <div className="bg-white rounded-lg shadow-lg mx-8 lg:mx-32 p-4">
-        <h2 className="text-center text-3xl font-bold text-blue-800 mb-6 font-sulphur">
-          Choose Your Plan
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-       
-          <div className="border rounded-lg shadow p-6 text-center">
-            <h3 className="text-xl font-bold text-blue-600 font-sulphur">Basic</h3>
-            <p className="text-gray-500 mb-4 font-sulphur">Perfect for beginners</p>
-            <p className="text-3xl font-bold text-blue-800 mb-4 font-sulphur">5000 RWF</p>
-            <p className="text-sm text-gray-400 mb-6 font-sulphur">per month</p>
-            <button className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600">
-              Select Plan
-            </button>
-          </div>
-
-          {/* Standard Plan */}
-          <div className="border rounded-lg shadow p-6 text-center bg-blue-50">
-            <h3 className="text-xl font-bold text-blue-600 font-sulphur">Standard</h3>
-            <p className="text-gray-500 mb-4 font-sulphur">Ideal for regular users</p>
-            <p className="text-3xl font-bold text-blue-800 mb-4 font-sulphur">7000 RWF</p>
-            <p className="text-sm text-gray-400 mb-6 font-sulphur">per month</p>
-            <button className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600">
-              Select Plan
-            </button>
-          </div>
-
-          {/* Premium Plan */}
-          <div className="border rounded-lg shadow p-6 text-center">
-            <h3 className="text-xl font-bold text-blue-600 font-sulphur">Premium</h3>
-            <p className="text-gray-500 mb-4 font-sulphur">Best for professionals</p>
-            <p className="text-3xl font-bold text-blue-800 mb-4 font-sulphur">10000 RWF</p>
-            <p className="text-sm text-gray-400 mb-6 font-sulphur">per month</p>
-            <button className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600">
-              Select Plan
-            </button>
+      <div className="py-4 w-[80%] flex justify-end mt-40 mx-auto rounded-lg p-8 bg-gray-100">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-gray-800 font-sulphur">Our Impact</h2>
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="bg-white shadow-lg rounded-lg p-6">
+              <p className="text-5xl font-bold text-blue-600 font-sulphur">1M+</p>
+              <p className="text-gray-600 font-sulphur">Users</p>
+            </div>
+            <div className="bg-white shadow-lg rounded-lg p-6">
+              <p className="text-5xl font-bold text-blue-600 font-sulphur">5M+</p>
+              <p className="text-gray-600 font-sulphur">Trades</p>
+            </div>
+            <div className="bg-white shadow-lg rounded-lg p-6">
+              <p className="text-5xl font-bold text-blue-600 font-sulphur">500+</p>
+              <p className="text-gray-600 font-sulphur">Businesses</p>
+            </div>
+            <div className="bg-white shadow-lg rounded-lg p-6">
+              <p className="text-5xl font-bold text-blue-600 font-sulphur">50+</p>
+              <p className="text-gray-600 font-sulphur">Countries</p>
+            </div>
           </div>
         </div>
       </div>
+    
     </div>
   );
 };
